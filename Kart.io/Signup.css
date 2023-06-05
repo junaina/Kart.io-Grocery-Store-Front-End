@@ -1,0 +1,146 @@
+
+/*styling the body*/
+body{
+  background-image: url("signup.png");
+  font-family: Arial;
+  
+  
+  background-size: 100% ;
+}
+/*styling the main page*/
+h1{
+  font-size: 10vh;
+ 
+  color: #FFDB73;
+  text-shadow: 4px 4px 4px #043347;
+}
+.position
+{
+  position:absolute;
+  height: 10%;
+  
+
+}
+p{
+  font-family: Arial, Helvetica;
+  font-weight: 200;
+  font-size: 30px;
+  color: white;
+}
+input{
+  font-family:Arial;
+  font-weight: 200;
+  font-size: 30px;
+
+}
+form{
+padding-left: 30vh;
+  
+}
+
+/*signup and login button styling*/
+.signup{
+  border: none;
+
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin-right: 10px; 
+  color:aliceblue;
+  font-weight: bold;
+  position: absolute;
+  top:90vh;
+  background-color: #E56AA5;
+  border-radius: 30px;
+  box-shadow: 0 3px 3px 0 #043347;
+  
+}
+.login{
+  border: none;
+
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color:aliceblue;
+  margin-left: 5px;
+
+  font-weight: bold;
+  position: absolute;
+  top:90vh;
+  left: 65vh;
+  background-color: #E56AA5;
+  border-radius: 30px;
+  box-shadow: 0 3px 3px 0 #043347;
+}
+
+
+/*nav bar styling*/
+
+.logo
+{
+text-align: justify;
+  top: 25px;
+    max-width:50%;
+    max-height:50%;
+    -webkit-filter: drop-shadow(5px 5px 5px #043347);
+  filter: drop-shadow(5px 5px 5px #043347);
+  
+
+
+}
+
+.heading
+{
+  font-size: 7vh;
+  font-family: Arial;
+  margin-bottom: 0;
+  text-align: left;
+  margin-top: 15%;
+  padding-bottom: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-shadow: 4px 4px 4px #043347;
+  position: relative;
+  left: 200px;
+}
+
+nav{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  height: 7vh;
+  text-align: right;
+  
+  
+}
+.nav a
+{
+  /*border: 10x  #FFFFFF;*/
+  font-family: Arial;
+  text-align: justify;
+  padding: 7px 17px;
+  margin: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  position: relative;
+  bottom: 15px;
+  transition: ease-in-out 0.7s;
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
+.signuph{
+  background-color: #E56AA5;
+  border-radius: 30px;
+  box-shadow: 0 3px 3px 0 #043347;
+
+}
+.signuph:hover{
+  color: #FFDB73;
+  
+
+}

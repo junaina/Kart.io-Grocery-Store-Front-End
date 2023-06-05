@@ -1,0 +1,101 @@
+
+/*styling the default body*/
+
+body {
+  background-image: url('home.png');
+  color: #FFDB73;
+  background-size: 100%;
+  
+  
+}
+
+/*Navigation pane edits begin here*/
+.logo
+{
+text-align: justify;
+  top: 25px;
+    max-width:50%;
+    max-height:50%;
+    -webkit-filter: drop-shadow(5px 5px 5px #043347);
+  filter: drop-shadow(5px 5px 5px #043347);
+  
+
+
+}
+
+.heading
+{
+  font-size: 7vh;
+  font-family: Arial;
+  margin-bottom: 0;
+  text-align: left;
+  margin-top: 15%;
+  padding-bottom: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-shadow: 4px 4px 4px #043347;
+  position: relative;
+  left: 200px;
+}
+
+nav{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  height: 7vh;
+  text-align: right;
+  
+  
+}
+.nav a
+{
+  /*border: 10x  #FFFFFF;*/
+  font-family: Arial;
+  text-align: justify;
+  padding: 7px 17px;
+  margin: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  position: relative;
+  bottom: 15px;
+  transition: ease-in-out 0.7s;
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
+.signup{
+  background-color: #E56AA5;
+  border-radius: 30px;
+  box-shadow: 0 3px 3px 0 #043347;
+
+}
+.signup:hover{
+  color: #FFDB73;
+  
+
+}
+
+/*styling the store button*/
+.store{
+  text-decoration:none;
+  font-family: Arial;
+  font-size: 25px;
+  text-align: right;
+  padding: 10px;
+  position: relative;
+  bottom:40px;
+  left: 40px;
+  color: #fff;
+  background-color:#E56AA5;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+  appearance: button;
+  text-shadow: #7b7136 0px 2px 2px;
+  border-radius: 16px;
+
+}
+.store:hover{
+  transition: ease-in 0.5s;
+  color: #FFDB73;
+  text-shadow: none;
+
+}

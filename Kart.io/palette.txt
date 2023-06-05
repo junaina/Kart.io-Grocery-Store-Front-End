@@ -1,0 +1,6 @@
+#7666E8 purple
+#FFDB73; yellow
+#1398D2 blue
+#FF8CCE bby pink
+#E56AA5 pink
+#043347 shadow
